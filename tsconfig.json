@@ -1,0 +1,8 @@
+{
+  "extends": "./node_modules/@chiyan-dev/web-configs/static/tsconfig-nodejs.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "baseUrl": "src"
+  }
+}
