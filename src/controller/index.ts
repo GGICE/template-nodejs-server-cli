@@ -1,5 +1,5 @@
 import type { Context } from 'koa';
-import * as userService from '@/service/user';
+import * as userService from '../service/user.js';
 
 export const index = async (ctx: Context) => {
   ctx.body = 'Hello world !';

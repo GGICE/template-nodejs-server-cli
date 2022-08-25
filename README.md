@@ -1,17 +1,15 @@
-English | [简体中文](./README-zh_CN.md)
+基于 Nodejs、Koa2、Mongoose 及 Typescript，并集成 Jest 的 Nodejs 后端简单脚手架，也可用于 CLI 应用开发
 
-Simple scaffolding of Nodejs backend based on Nodejs, Koa2, Mongoose and Typescript, and integrated with Jest, can also be used for CLI application development
-
-# develop
+# 开发
 
 ```
 npm run start
 ```
 
-# production build
+# 生产构建
 
 ```
 npm run build
 ```
 
-Build artifacts are located in `dist/` for production deployment
+构建产物位于 `dist/`，用于生产环境部署

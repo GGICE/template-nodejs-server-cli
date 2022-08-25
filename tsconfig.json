@@ -1,5 +1,5 @@
 {
-  "extends": "./node_modules/@chiyan-dev/web-configs/static/tsconfig-nodejs.json",
+  "extends": "./node_modules/@chiyan-dev/web-configs/static/tsconfig-nodejs-next.json",
   "compilerOptions": {
     "outDir": "dist",
     "rootDir": "src",

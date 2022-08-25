@@ -290,10 +290,10 @@
   resolved "https://registry.npmmirror.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@chiyan-dev/web-configs@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.npmmirror.com/@chiyan-dev/web-configs/-/web-configs-0.1.0.tgz#ef718b6b54a9142c65e1a10aec8cdee9a79cca39"
-  integrity sha512-yyfdLyJdKNd4Y2Jo++iFRIhxKWYYe1uP652h5KU2Cev3bm4MoJyQLcgeVgEPW6FdzB5CuXLvOacnR75oaev6uQ==
+"@chiyan-dev/web-configs@0.2.2":
+  version "0.2.2"
+  resolved "https://registry.npmmirror.com/@chiyan-dev/web-configs/-/web-configs-0.2.2.tgz#34fd6b772ab083d42afa0422727ce510eff81ca2"
+  integrity sha512-hTqYLY/g2kWVY+6KR1i/eZvVdeB83LwfbwfL9oPH5FC1nBCzm12bc8OYy3SOupP8m85rS0h+ycp+hpiCJ07ONQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^5.5.0"
     "@typescript-eslint/parser" "^5.5.0"
@@ -301,6 +301,8 @@
     eslint-config-alloy "^4.4.0"
     eslint-plugin-prettier "^4.0.0"
     eslint-plugin-react "^7.27.1"
+    prettier "^2.7.1"
+    typescript "^4.7.4"
 
 "@eslint/eslintrc@^1.3.0":
   version "1.3.0"
@@ -822,11 +824,6 @@
   version "3.0.1"
   resolved "https://registry.npmmirror.com/@types/mime/-/mime-3.0.1.tgz#5f8f2bca0a5863cb69bc0b0acd88c96cb1d4ae10"
   integrity sha512-Y4XFY5VJAuw0FgAqPNd6NNoV44jbq9Bz2L7Rh/J6jLTiHBSBJa9fxqQIvkIld4GsoDOcCbvzOUAbLPsSKKg+uA==
-
-"@types/module-alias@^2.0.0":
-  version "2.0.1"
-  resolved "https://registry.npmmirror.com/@types/module-alias/-/module-alias-2.0.1.tgz#e5893236ce922152d57c5f3f978f764f4deeb45f"
-  integrity sha512-DN/CCT1HQG6HquBNJdLkvV+4v5l/oEuwOHUPLxI+Eub0NED+lk0YUfba04WGH90EINiUrNgClkNnwGmbICeWMQ==
 
 "@types/node@*", "@types/node@^18.7.6":
   version "18.7.6"
@@ -3124,11 +3121,6 @@ minimatch@^3.0.4, minimatch@^3.1.1, minimatch@^3.1.2:
   dependencies:
     brace-expansion "^1.1.7"
 
-module-alias@^2.2.2:
-  version "2.2.2"
-  resolved "https://registry.npmmirror.com/module-alias/-/module-alias-2.2.2.tgz#151cdcecc24e25739ff0aa6e51e1c5716974c0e0"
-  integrity sha512-A/78XjoX2EmNvppVWEhM2oGk3x4lLxnkEA4jTbaK97QKSDjkIoOsKQlfylt/d3kKKi596Qy3NP5XrXJ6fZIC9Q==
-
 mongodb-connection-string-url@^2.5.2:
   version "2.5.3"
   resolved "https://registry.npmmirror.com/mongodb-connection-string-url/-/mongodb-connection-string-url-2.5.3.tgz#c0c572b71570e58be2bd52b33dffd1330cfb6990"
@@ -3486,7 +3478,7 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^2.5.0:
+prettier@^2.5.0, prettier@^2.7.1:
   version "2.7.1"
   resolved "https://registry.npmmirror.com/prettier/-/prettier-2.7.1.tgz#e235806850d057f97bb08368a4f7d899f7760c64"
   integrity sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==
@@ -4099,7 +4091,7 @@ type-is@^1.6.16:
     media-typer "0.3.0"
     mime-types "~2.1.24"
 
-typescript@^4.2.2:
+typescript@^4.2.2, typescript@^4.7.4:
   version "4.7.4"
   resolved "https://registry.npmmirror.com/typescript/-/typescript-4.7.4.tgz#1a88596d1cf47d59507a1bcdfb5b9dfe4d488235"
   integrity sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==

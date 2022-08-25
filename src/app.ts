@@ -1,10 +1,8 @@
-import './utils/paths';
-
 import Koa from 'koa';
-import { initRouter } from '@/routers';
-import { initModel } from '@/model';
-import { initMiddleware } from '@/middleware';
-import configs from '@/config';
+import { initRouter } from './routers/index.js';
+import { initModel } from './model/index.js';
+import { initMiddleware } from './middleware/index.js';
+import configs from './config.js';
 
 const { BASE_URL, PORT } = configs;
 

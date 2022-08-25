@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import configs from '@/config';
+import configs from '../config.js';
 
 const { MONGODB } = configs;
 
