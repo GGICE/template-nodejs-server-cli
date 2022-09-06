@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import kittySchema from '../model/user.js';
+import kittySchema from '../models/user.js';
 
 const Kitten = mongoose.model('Kitten', kittySchema);
 

@@ -1,5 +1,5 @@
 import type Koa from 'koa';
-import hello from '../middleware/hello.js';
+import hello from './hello.js';
 
 export const initMiddleware = (app: Koa) => {
   app.use(hello);

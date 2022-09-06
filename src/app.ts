@@ -1,6 +1,6 @@
 import Koa from 'koa';
 import { initRouter } from './routers/index.js';
-import { initModel } from './model/index.js';
+import { initModel } from './models/index.js';
 import { initMiddleware } from './middleware/index.js';
 import configs from './config.js';
 
