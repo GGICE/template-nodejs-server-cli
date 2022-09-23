@@ -12,8 +12,9 @@ const router = new Router({
 
 export const initRouter = (app: Koa) => {
   router.get('/', index);
-  router.get('/add-user', addUser);
-  router.get('/add-user', getUser);
+  // 方便演示，都使用 GET 方法
+  router.get('/user/add', addUser);
+  router.get('/user/get', getUser);
 
   app.use(bodyParser());
   app.use(router.routes()).use(router.allowedMethods());

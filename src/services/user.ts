@@ -1,13 +1,13 @@
-import mongoose from 'mongoose';
-import kittySchema from '../models/user.js';
-
-const Kitten = mongoose.model('Kitten', kittySchema);
+import userModal from '../models/user.js';
 
 export const addUser = (userName: string) => {
-  const silence = new Kitten({ name: userName });
-  return silence.save();
+  return userModal.insertMany({ name: userName });
 };
 
 export const getUser = () => {
-  return Kitten.find();
+  return userModal.find();
+};
+
+export const testFun = () => {
+  return true;
 };

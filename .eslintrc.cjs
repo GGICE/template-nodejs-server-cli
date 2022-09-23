@@ -8,4 +8,6 @@ module.exports = {
   rules: {
     // your rules
   },
+
+  ignorePatterns: ['*.test.ts'],
 };

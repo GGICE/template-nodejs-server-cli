@@ -1,7 +1,12 @@
-import mongoose from 'mongoose';
+import type { ExtractDoc, ExtractProps } from 'ts-mongoose';
+import { createSchema, Type, typedModel } from 'ts-mongoose';
 
-const kittySchema = new mongoose.Schema({
-  name: String,
+const UserSchema = createSchema({
+  name: Type.string({ required: true, unique: true }),
 });
 
-export default kittySchema;
+const userModel = typedModel('User', UserSchema);
+
+export type UserDoc = ExtractDoc<typeof UserSchema>;
+export type UserProps = ExtractProps<typeof UserSchema>;
+export default userModel;
